@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image {
+  flex-basis: 250px;
+  margin: 20px;
+}
+.image > img {
+  width: 100%;
+  height: auto;
+}
